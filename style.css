@@ -237,11 +237,11 @@ body{
   padding: 1rem;
   font-size: 1rem;
   font-weight: 700;
-  transition: background 0.5s ease-in-out;
+  transition: background-image 0.5s ease-in-out;
   cursor: pointer;
 }
 .btn:hover{
-  background: var(--result-card-gradient);
+  background-image: var(--result-card-gradient);
 }
 .btn:focus-visible {
   outline: 0.1875rem solid var(--Light-slate-blue);
